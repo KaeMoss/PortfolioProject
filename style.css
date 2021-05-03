@@ -2,13 +2,21 @@ header, footer {
   background:rgb(95, 93, 93);
   color:rgb(201, 198, 198);
  }
-
+/*originally gave the margin 26px because it lined the picture up nicely but then realized it was better to just center the picture.  Left it anyway because it looks okay*/
 body {
   background: rgb(201, 198, 198);
   color: rgb(95, 93, 93);
   margin: 27px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/*It seems that future didn't work here but I still like the font so, maybe it will work in other consoles*/
 h2, h3, header, footer {
    text-align: center;
   font-family: futura, helvetica, san-serif;
@@ -23,21 +31,22 @@ h2, h3, header, footer {
   padding: 0px 25px;
 }
 
+/*this will make links a certain color while just sitting on the page*/
 a:link {
   color:rgb(216, 76, 76)
 }
 
+/*this will turn the link a color if it has been visited before*/
 a:visited {
   color: blueviolet;
 }
 
+/*this will turn the link a color while it's being clicked*/
 a:active {
   color:purple
 }
 
+/*this will turn the link a color if the curser is over it*/
 a:hover {
   color:rgb(16, 151, 144)
 }
-
-
-Put comments into html and here before transferring to GitHub
