@@ -1,0 +1,43 @@
+header, footer {
+  background:rgb(95, 93, 93);
+  color:rgb(201, 198, 198);
+ }
+
+body {
+  background: rgb(201, 198, 198);
+  color: rgb(95, 93, 93);
+  margin: 27px;
+}
+
+h2, h3, header, footer {
+   text-align: center;
+  font-family: futura, helvetica, san-serif;
+  }
+
+.large-text {
+  font-size: 24px;
+}
+
+/*Need padding only on sides not top and bottom*/
+.extra-padding {
+  padding: 0px 25px;
+}
+
+a:link {
+  color:rgb(216, 76, 76)
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:active {
+  color:purple
+}
+
+a:hover {
+  color:rgb(16, 151, 144)
+}
+
+
+Put comments into html and here before transferring to GitHub
