@@ -50,3 +50,7 @@ a:active {
 a:hover {
   color:rgb(16, 151, 144)
 }
+
+.taller {
+  height: 50px;
+}
