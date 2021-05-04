@@ -1,11 +1,11 @@
 header, footer {
-  background:rgb(95, 93, 93);
-  color:rgb(201, 198, 198);
+  background: black;
+  color:rgb(250, 247, 247);
  }
 /*originally gave the margin 26px because it lined the picture up nicely but then realized it was better to just center the picture.  Left it anyway because it looks okay*/
 body {
-  background: rgb(201, 198, 198);
-  color: rgb(95, 93, 93);
+  background: rgb(250, 247, 247);
+  color: black;
   margin: 27px;
 }
 
