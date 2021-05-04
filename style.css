@@ -33,22 +33,22 @@ h2, h3, header, footer {
 
 /*this will make links a certain color while just sitting on the page*/
 a:link {
-  color:rgb(216, 76, 76)
+  color:rgb(141, 9, 9);
 }
 
 /*this will turn the link a color if it has been visited before*/
 a:visited {
-  color: blueviolet;
+  color: rgb(51, 3, 95);
 }
 
 /*this will turn the link a color while it's being clicked*/
 a:active {
-  color:purple
+  color:black;
 }
 
 /*this will turn the link a color if the curser is over it*/
 a:hover {
-  color:rgb(16, 151, 144)
+  color:rgb(2, 66, 63)
 }
 
 .taller {
